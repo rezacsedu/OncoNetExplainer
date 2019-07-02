@@ -23,7 +23,7 @@ A quick example on a small dataset can be performed as follows:
 * $ python3 grad_cam.py
 
 ### Examples of using SHAP and Gradient Boosted Trees
-Refer the Python notebook [Python notebook] (https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/Notebooks/GeneExpression_Classification_SHAP_XBoost.ipynb) to get an idea how to use SHAP and Gradient Boosted Trees to generate feature importance. 
+Refer the Python notebook [Python notebook](https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/Notebooks/GeneExpression_Classification_SHAP_XBoost.ipynb) to get an idea how to use SHAP and Gradient Boosted Trees to generate feature importance. 
 
 ## Citation request
 If you use the code of this repository in your research, please consider citing the folowing papers:
