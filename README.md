@@ -10,10 +10,10 @@ Both models show high confidence at predicting different cancer types correctly 
 To provide comparison with baselines, we further identify top genes for each cancer type and cancer specific driver genes using gradient boosted trees and SHapley Additive exPlanations(SHAP), which are further validated with the annotation from the TumorPortal.
 
 #### Data collections
-Gene expression about 33 different tumor types have been downloaded from The Cancer Genome Atlas(TCGA) portal covering 9,074 samples. See [here](https://github.com/rezacsedu/XAI_Cancer_Pred/tree/master/Data) for details about the data. 
+Gene expression about 33 different tumor types have been downloaded from The Cancer Genome Atlas(TCGA) portal covering 9,074 samples. See [here](https://github.com/rezacsedu/XAI_Cancer_Pred/tree/master/Data) for more details about the data. 
 
 #### Data availability
-The preprocessed data can be downloaded from the following link with the password of '123' (without quote). 
+The preprocessed data can be downloaded from [here](https://data.fit.fraunhofer.de/index.php/s/4yXxzSoRgnI18XY) with the password of '123' (without quote). 
 
 #### A quick instructions on using GradCAM and ranking important biomarkers
 A quick example on a small dataset can be performed as follows: 
