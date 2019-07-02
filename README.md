@@ -2,7 +2,12 @@
 Code and supplementary materials for our paper titled "Explainable Prediction of Cancer Types Based on Gene Expression Data" submitted to The 19th annual IEEE International Conference on Bioinformatics and Bioengineering(BIBE 2019) to be held in Athens, Greece. 
 
 ### Methods
-In this paper, we collect genomics data about 9,074 cancer patients covering 33 different cancer types from The Cancer Genome Atlas(TCGA) and train a CNN and VGG16 networks using guided-gradient class activation map(GradCAM). Then we identify most significant biomarkers and rank top genes across different cancer types based on mean absolute impact. Both models show high confidence at predicting different cancer types correctly at least 94% of the cases. To provide comparison with baselines, we further identify top genes for each cancer type and cancer specific driver genes using gradient boosted trees and SHapley Additive exPlanations(SHAP), which are further validated with the annotation from the TumorPortal.
+In this paper, we collect genomics data about 9,074 cancer patients covering 33 different cancer types from The Cancer Genome Atlas(TCGA) and train a CNN and VGG16 networks using guided-gradient class activation map(GradCAM). 
+
+Then we identify most significant biomarkers and rank top genes across different cancer types based on mean absolute impact. 
+Both models show high confidence at predicting different cancer types correctly at least 94% of the cases. 
+
+To provide comparison with baselines, we further identify top genes for each cancer type and cancer specific driver genes using gradient boosted trees and SHapley Additive exPlanations(SHAP), which are further validated with the annotation from the TumorPortal.
 
 ### Data collections
 Gene expression about 33 different tumor types have been downloaded from The Cancer Genome Atlas(TCGA) portal covering 9,074 samples. Refer to https://github.com/rezacsedu/XAI_Cancer_Pred/tree/master/Data for details about the data. 
