@@ -1,4 +1,4 @@
-### Explainable Prediction of Cancer Types Based on Gene Expression Data
+### OncoNetExplainer: Explainable Predictions of Cancer Types Based on Gene Expression Data
 Code and supplementary materials for our paper titled "Explainable Prediction of Cancer Types Based on Gene Expression Data" submitted to The 19th annual IEEE International Conference on Bioinformatics and Bioengineering(BIBE 2019) to be held in Athens, Greece. 
 
 #### Methods
