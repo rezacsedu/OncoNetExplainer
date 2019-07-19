@@ -23,14 +23,28 @@ A quick example on a small dataset can be performed as follows:
 * $ python3 grad_cam.py
 
 #### Examples of explanation using CNN and SHAP
-Example of explnation using CNN with SHAP feature importance will be added soon. 
+CNN and VGG16 networks using guided-gradient class activation map~(GradCAM). Further, we generated heat-maps for all the classes based on GradCAM to identify the most significant biomarkers and compute the feature importance in terms of mean absolute impact~(MAI) to rank top genes across cancer types. 
+
+The following figures shows the generated heat-map examples for selected cancer types. Each column represents the result from one  fold. Rows represent the heat-maps of BRCA, KIRC, COAD, LUAD, and PRAD cancer types (from top-down):
+
+![](images/grid.png)
+
+The following figures shows common driver genes across 33 cancer types:
+
+![](images/common.png)
+
+Nevertheless, a Python notebook will be added soon to show the steps more transparently. 
 
 #### Examples of explanation using SHAP and Gradient Boosted Trees
 Refer the [Python notebook](https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/Notebooks/GeneExpression_Classification_SHAP_XBoost.ipynb) to get an idea how to use SHAP and gradient boosted trees to generate feature importance and explanation about the prediction. 
 
-First, we process the data (see the Python notebook). Then we train a GBT algorithm. Then SHAP explainer is used to provide explanation. 
+First, we process the data (see the Python notebook). Then we train a GBT algorithm. Then SHAP explainer is used to provide explanation. The following figure shows clinical features contribution pushing the prediction higher in red and pushing the prediction lower are in blue: 
 
 ![](images/shap.png)
+
+The following figure shows clinical features contribution in which features are ordered on the y-axis in a descending order according to their MAI~(each dot represents SHAP value for a specific feature):
+
+![](images/fi.png)
 
 ### Citation request
 If you use the code of this repository in your research, please consider citing the folowing papers:
