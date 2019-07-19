@@ -27,7 +27,7 @@ CNN and VGG16 networks using guided-gradient class activation map~(GradCAM). Fur
 
 The following figures shows the generated heat-map examples for selected cancer types. Each column represents the result from one  fold. Rows represent the heat-maps of BRCA, KIRC, COAD, LUAD, and PRAD cancer types (from top-down):
 
-<img src="https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/images/grid.png" width="1000" height="500">
+<img src="https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/images/grid.png" width="1000" height="300">
 
 The following figures shows common driver genes across 33 cancer types:
 
