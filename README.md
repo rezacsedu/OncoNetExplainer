@@ -31,7 +31,7 @@ The following figures shows the generated heat-map examples for selected cancer 
 
 The following figures shows common driver genes across 33 cancer types:
 
-<img src="https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/images/common.png" width="400" height="400">
+<img src="https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/images/common.png" width="600" height="500">
 
 Nevertheless, a Python notebook will be added soon to show the steps more transparently. 
 
