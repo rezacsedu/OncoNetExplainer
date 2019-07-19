@@ -28,6 +28,10 @@ Example of explnation using CNN with SHAP feature importance will be added soon.
 #### Examples of explanation using SHAP and Gradient Boosted Trees
 Refer the [Python notebook](https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/Notebooks/GeneExpression_Classification_SHAP_XBoost.ipynb) to get an idea how to use SHAP and gradient boosted trees to generate feature importance and explanation about the prediction. 
 
+First, we process the data (see the Python notebook). Then we train a GBT algorithm. Then SHAP explainer is used to provide explanation. 
+
+![alt text](https://github.com/rezacsedu/XAI_Cancer_Pred/tree/master/images/shap.png)
+
 ### Citation request
 If you use the code of this repository in your research, please consider citing the folowing papers:
 
