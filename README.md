@@ -29,8 +29,10 @@ The following figures shows the generated heat-map examples for selected cancer 
 
 <img src="https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/images/grid.png" width="1000" height="400">
 
-The following figures shows common driver genes across 33 cancer types:
+We found that KRTAP1-1, INPP5K, GAS8, MC1R, POLR2A, BET1P1, NAT2, PSD3, KAT6A, and INTS10 genes are common across cancer types giving the highest feature importance of 0.6 by protein-coding gene INTS10. The following 25 are top genes/biomarkers across 5 cancer types(sorted based on mean absolute impact(MAI) value:
+<img src="https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/images/top_k.png" width="300" height="300">
 
+The following figures shows common driver genes across 33 cancer types:
 <img src="https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/images/common.png" width="600" height="500">
 
 Nevertheless, a Python notebook will be added soon to show the steps more transparently. 
@@ -45,6 +47,8 @@ First, we process the data (see the Python notebook). Then we train a GBT algori
 The following figure shows clinical features contribution in which features are ordered on the y-axis in a descending order according to their MAI~(each dot represents SHAP value for a specific feature):
 
 <img src="https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/images/fi.png" width="500" height="600">
+
+As seen, features pushing the prediction higher(i.e. NACA2, LOC442454, and C19orf6 are most significant features) are shown in red~(i.e. how much the probability for which the target is is increased), those pushing the prediction lower are in blue~(ASTN2 and PCDHGC3 are least significant).
 
 ### Citation request
 If you use the code of this repository in your research, please consider citing the folowing papers:
