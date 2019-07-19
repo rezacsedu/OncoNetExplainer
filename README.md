@@ -54,7 +54,7 @@ As seen, features pushing the prediction higher(i.e. NACA2, LOC442454, and C19or
 If you use the code of this repository in your research, please consider citing the folowing papers:
 
     @inproceedings{karim2019XAI,
-        title={Explainable Prediction of Cancer Types Based on Gene Expression Data},
+        title={OncoNetExplainer: Explainable Prediction of Cancer Types Based on Gene Expression Data},
         author={Karim, Md Rezaul and Beyan Deniz and Decker, Stefan},
         booktitle={The 19th annual IEEE International Conference on Bioinformatics and Bioengineering (BIBE 2019)},
         year={2019}
