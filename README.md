@@ -44,7 +44,7 @@ First, we process the data (see the Python notebook). Then we train a GBT algori
 
 The following figure shows clinical features contribution in which features are ordered on the y-axis in a descending order according to their MAI~(each dot represents SHAP value for a specific feature):
 
-<img src="https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/images/fi.png" width="500" height="700">
+<img src="https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/images/fi.png" width="500" height="600">
 
 ### Citation request
 If you use the code of this repository in your research, please consider citing the folowing papers:
