@@ -30,7 +30,7 @@ Refer the [Python notebook](https://github.com/rezacsedu/XAI_Cancer_Pred/blob/ma
 
 First, we process the data (see the Python notebook). Then we train a GBT algorithm. Then SHAP explainer is used to provide explanation. 
 
-![alt text](https://github.com/rezacsedu/XAI_Cancer_Pred/tree/master/images/shap.png)
+![](images/shap.png)
 
 ### Citation request
 If you use the code of this repository in your research, please consider citing the folowing papers:
