@@ -4,7 +4,7 @@ Code and supplementary materials for our paper titled "Explainable Prediction of
 #### Methods
 In this paper, we collect genomics data about 9,074 cancer patients covering 33 different cancer types from The Cancer Genome Atlas(TCGA) and train a CNN and VGG16 networks using guided-gradient class activation map(GradCAM). The following figure shows the workflow of the approach we followed:
 
-<img src="https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/images/wf.png" width="600" height="550">
+<img src="https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/images/wf.png" width="700" height="650">
 
 Then we identify most significant biomarkers and rank top genes across different cancer types based on mean absolute impact. Both models show high confidence at predicting different cancer types correctly at least 94% of the cases. 
 
