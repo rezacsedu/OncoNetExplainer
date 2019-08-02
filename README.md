@@ -4,8 +4,7 @@ Code and supplementary materials for our paper titled "Explainable Prediction of
 #### Methods
 In this paper, we collect genomics data about 9,074 cancer patients covering 33 different cancer types from The Cancer Genome Atlas(TCGA) and train a CNN and VGG16 networks using guided-gradient class activation map(GradCAM). 
 
-Then we identify most significant biomarkers and rank top genes across different cancer types based on mean absolute impact. 
-Both models show high confidence at predicting different cancer types correctly at least 94% of the cases. 
+Then we identify most significant biomarkers and rank top genes across different cancer types based on mean absolute impact. Both models show high confidence at predicting different cancer types correctly at least 94% of the cases. 
 
 To provide comparison with baselines, we further identify top genes for each cancer type and cancer specific driver genes using gradient boosted trees and SHapley Additive exPlanations(SHAP), which are further validated with the annotation from the TumorPortal.
 
@@ -23,7 +22,9 @@ A quick example on a small dataset can be performed as follows:
 * $ python3 grad_cam.py
 
 #### Examples of explanation using CNN and SHAP
-CNN and VGG16 networks using guided-gradient class activation map~(GradCAM). Further, we generated heat-maps for all the classes based on GradCAM to identify the most significant biomarkers and compute the feature importance in terms of mean absolute impact~(MAI) to rank top genes across cancer types. 
+CNN and VGG16 networks using guided-gradient class activation map~(GradCAM). Further, we generated heat-maps for all the classes based on GradCAM to identify the most significant biomarkers and compute the feature importance in terms of mean absolute impact~(MAI) to rank top genes across cancer types. The following figure shows the workflow of the approach we followed:
+
+<img src="https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/images/wf.png" width="400" height="450">
 
 The following figures shows the generated heat-map examples for selected cancer types. Each column represents the result from one  fold. Rows represent the heat-maps of BRCA, KIRC, COAD, LUAD, and PRAD cancer types (from top-down):
 
