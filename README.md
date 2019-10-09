@@ -1,5 +1,5 @@
 ### OncoNetExplainer: Explainable Predictions of Cancer Types Based on Gene Expression Data
-Code and supplementary materials for our paper titled "Explainable Prediction of Cancer Types Based on Gene Expression Data" submitted to The 19th annual IEEE International Conference on Bioinformatics and Bioengineering(BIBE 2019) to be held in Athens, Greece. 
+Code and supplementary materials for our paper titled "Explainable Prediction of Cancer Types Based on Gene Expression Data", in proc. of The 19th annual IEEE International Conference on Bioinformatics and Bioengineering(BIBE 2019) to be held in Athens, Greece. 
 
 #### Methods
 In this paper, we collect genomics data about 9,074 cancer patients covering 33 different cancer types from The Cancer Genome Atlas(TCGA) and train a CNN and VGG16 networks using guided-gradient class activation map(GradCAM). The following figure shows the workflow of the approach we followed:
