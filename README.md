@@ -2,7 +2,7 @@
 Code and supplementary materials for our paper titled "Explainable Prediction of Cancer Types Based on Gene Expression Data", in proc. of The 19th annual IEEE International Conference on Bioinformatics and Bioengineering(BIBE 2019) to be held in Athens, Greece. 
 
 #### Methods
-In this paper, we collect genomics data about 9,074 cancer patients covering 33 different cancer types from The Cancer Genome Atlas(TCGA) and train a CNN and VGG16 networks using guided-gradient class activation map(GradCAM). The following figure shows the workflow of the approach we followed:
+In this paper, we collect genomics data about 9,074 cancer patients covering 33 different cancer types from The Cancer Genome Atlas(TCGA) and train a CNN and VGG16 networks using gradient-guided class activation map (Grad-CAM and Grad-CAM++) and Layer-wise relevance propagation (LRP). The following figure shows the workflow of the approach we followed:
 
 <img src="https://github.com/rezacsedu/XAI_Cancer_Pred/blob/master/images/wf.png" width="700" height="650">
 
@@ -22,6 +22,9 @@ A quick example on a small dataset can be performed as follows:
 * $ python3 load_data.py (make sure that the data in CSV format in the 'data' folder)
 * $ python3 model.py
 * $ python3 grad_cam.py
+
+#### Examples of explanation using LRP
+An example predictions with decision visualization with all the methods, in particular for LRP can be found in a [notebook](https://github.com/rezacsedu/XAI_Cancer_Prediction/blob/master/LRP_SoftmaxGradient/LRP_example.ipynb). 
 
 #### Examples of explanation using CNN and SHAP
 CNN and VGG16 networks using guided-gradient class activation map~(GradCAM). Further, we generated heat-maps for all the classes based on GradCAM to identify the most significant biomarkers and compute the feature importance in terms of mean absolute impact~(MAI) to rank top genes across cancer types. 
@@ -56,7 +59,7 @@ If you use the code of this repository in your research, please consider citing 
 
     @inproceedings{karim2019XAI,
         title={OncoNetExplainer: Explainable Prediction of Cancer Types Based on Gene Expression Data},
-        author={Karim, Md Rezaul and Beyan Deniz and Decker, Stefan},
+        author={Karim, Md Rezaul and Cochez, Michael and Beyan, Oya and Decker, Stefan and Lange, Christoph},
         booktitle={The 19th annual IEEE International Conference on Bioinformatics and Bioengineering (BIBE 2019)},
         year={2019}
     }
